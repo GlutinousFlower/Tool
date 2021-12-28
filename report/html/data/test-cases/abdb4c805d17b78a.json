@@ -1,0 +1,87 @@
+{
+  "uid" : "abdb4c805d17b78a",
+  "name" : "test_login_by_password[0-12]",
+  "fullName" : "test_case.test_login.TestLogin#test_login_by_password",
+  "historyId" : "2e5d3376ce6190d56c5fc2642d8a2552",
+  "time" : {
+    "start" : 1640673259392,
+    "stop" : 1640673259542,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "get_env_config",
+    "time" : {
+      "start" : 1640673243698,
+      "stop" : 1640673243699,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试密码登录"
+  }, {
+    "name" : "feature",
+    "value" : "登录case"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "lupingxiaodeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "51963-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "'0'"
+  }, {
+    "name" : "phone",
+    "value" : "'1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "abdb4c805d17b78a.json",
+  "parameterValues" : [ "'0'", "'1'" ]
+}
